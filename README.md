@@ -1,7 +1,7 @@
 ## Installing
 
 ```
-$ git clone https://github.com/jsmojo/react-quiz/
+$ git clone https://github.com/jsmojo/react-redux-quiz/
 ```
 
 ```
