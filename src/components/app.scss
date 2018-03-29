@@ -1,0 +1,37 @@
+@import './../styles/modules/modules.scss';
+
+$border-width: 20px;
+
+.App {
+
+    .content {
+        border-top: $border-width solid rgb(82, 82, 79);
+        border-right: $border-width solid rgb(74, 73, 73);
+        border-bottom: $border-width solid rgb(90, 90, 92);
+        border-left: $border-width solid rgb(96, 95, 94);
+        max-width: 800px;
+        margin: 30px auto;
+        padding: 20px;
+    }
+    .logo {
+        animation: spin infinite 20s linear;
+        height: 80px;
+      }
+      
+      .header {
+        background-color: #222;
+        padding: 20px;
+        color: white;
+        text-align: center;
+      }
+      
+      .intro {
+          margin-top: 15px;
+        font-size: 1.5em;
+      }
+}
+  
+  @keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }

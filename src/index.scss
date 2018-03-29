@@ -1,0 +1,8 @@
+@import './styles/modules/modules.scss';
+
+.body {
+  font-size: 14px;
+  @media (min-width: $screen-md-min) {
+      font-size: 13px;
+  }
+}

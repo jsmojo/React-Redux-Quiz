@@ -1,0 +1,33 @@
+@import './../../styles/modules/modules.scss';
+
+.item {
+    cursor: pointer;
+    padding: 1.5rem 2.5rem 1.5rem 0;
+
+    &:hover {
+        font-weight: bold;
+
+        .arrow {
+            border-left: 20px solid green;
+            transform: rotate(90deg);
+        }
+    }
+
+    .arrow {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border-left: 20px solid blue;
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+        transition: transform .8s ease-in-out;
+    
+    }
+}
+
+.items {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+

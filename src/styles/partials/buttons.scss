@@ -1,0 +1,16 @@
+@import '../modules/modules.scss';
+
+.btn-pb {
+    background-color: $silver-chalice;
+    color: white;
+    padding: 3px 12px;
+    white-space: normal;
+
+    &.pb-blue {
+        background-color: $flirt;
+    }
+    &.pb-sky {
+        background-color: $cerulean;
+        color: white;
+    }
+}
